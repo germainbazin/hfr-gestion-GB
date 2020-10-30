@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hfr-gestion-GB';
-}
+  title = 'Communauté HFR -- gestion des Battles Musicaux';
+ }
