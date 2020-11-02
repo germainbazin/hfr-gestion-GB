@@ -1,8 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-
+import { HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ArtisteComponent } from './artiste/artiste.component';
 import { MorceauComponent } from './morceau/morceau.component';
@@ -26,7 +25,7 @@ import { PlayerComponent } from './player/player.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpClientModule,
   ],
   providers: [PlayerComponent],
   bootstrap: [AppComponent]

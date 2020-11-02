@@ -20,7 +20,5 @@ export class PlayerComponent implements OnInit {
     this.fullUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.player.fix + this.player.url);
   }
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

@@ -7,7 +7,7 @@ import { Morceau} from '../morceau';
   styleUrls: ['./morceau.component.css']
 })
 export class MorceauComponent implements OnInit {
-morceau: Morceau= {
+morceau: Morceau = {
   id: 1,
   name: 'premier morceau'
   };
